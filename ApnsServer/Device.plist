@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Devices</key>
+	<array>
+		<dict>
+			<key>DeviceID</key>
+			<string>94942e9edda3295cdb4a8c2663a7546a74667a5b</string>
+			<key>DeviceName</key>
+			<string>何金伯-iPad2-3G+WiFi-iOS5.1</string>
+			<key>DeviceToken</key>
+			<string>b1752b7c e8280246 7bb91382 2f877765 c4ac5f87 2088936e 2a2cedb5 97e88acf</string>
+		</dict>
+		<dict>
+			<key>DeviceID</key>
+			<string>3f39c174bab068a285f9f0fcf48f9af026275427</string>
+			<key>DeviceName</key>
+			<string>开发-iPhone4S-iOS5.0</string>
+			<key>DeviceToken</key>
+			<string>29cbb2f3 58ada67e 83bb6ffb 7ec68f10 59f3a13a 21c7a678 3899eee9 cf1c208c</string>
+		</dict>
+		<dict>
+			<key>DeviceID</key>
+			<string>839eed5fb4b6d2add97249c815bcbd8f63abce59</string>
+			<key>DeviceName</key>
+			<string>开发-iPod Touch4-iOS5.0.1</string>
+			<key>DeviceToken</key>
+			<string>da19dc4d c91c89da e6e5aae9 651dc7b8 3ac5d187 adf32400 3a3a3ffe 5641e924</string>
+		</dict>
+		<dict>
+			<key>DeviceID</key>
+			<string>fefd9af22c886f28fd14fccc2c703a51af7f9033</string>
+			<key>DeviceName</key>
+			<string>张超-The New iPad-iOS5.1.1</string>
+			<key>DeviceToken</key>
+			<string>0e78688d 405d75be a2245ec4 0352a429 c435947b c7350c81 551d7714 e5dafad2</string>
+		</dict>
+		<dict>
+			<key>DeviceID</key>
+			<string>70374e044eb1a3b1433abe8ee5d436908dd699a8</string>
+			<key>DeviceName</key>
+			<string>陈旭-iPad2-3G-iOS5.1</string>
+			<key>DeviceToken</key>
+			<string>aa2ad712 cc9f90af 4be0e02f ad950d71 12bea5a6 6b4287a2 f9b70e44 16644ce6</string>
+		</dict>
+	</array>
+</dict>
+</plist>

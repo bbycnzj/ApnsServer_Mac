@@ -1,0 +1,331 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F6E36F531559034F0013677B /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F6E36F521559034F0013677B /* Cocoa.framework */; };
+		F6E36F5D1559034F0013677B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F6E36F5B1559034F0013677B /* InfoPlist.strings */; };
+		F6E36F5F1559034F0013677B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F6E36F5E1559034F0013677B /* main.m */; };
+		F6E36F63155903500013677B /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = F6E36F61155903500013677B /* Credits.rtf */; };
+		F6E36F66155903500013677B /* KSAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F6E36F65155903500013677B /* KSAppDelegate.m */; };
+		F6E36F69155903500013677B /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = F6E36F67155903500013677B /* MainMenu.xib */; };
+		F6E36F74155906B60013677B /* apns.cer in Resources */ = {isa = PBXBuildFile; fileRef = F6E36F73155906B60013677B /* apns.cer */; };
+		F6E36F78155906CD0013677B /* ioSock.c in Sources */ = {isa = PBXBuildFile; fileRef = F6E36F76155906CD0013677B /* ioSock.c */; };
+		F6E36F7A1559093E0013677B /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F6E36F791559093E0013677B /* Security.framework */; };
+		F6E36F92155923270013677B /* KSDeviceInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = F6E36F91155923270013677B /* KSDeviceInfo.m */; };
+		F6E36FB6155A12520013677B /* Device.plist in Resources */ = {isa = PBXBuildFile; fileRef = F6E36FB5155A12520013677B /* Device.plist */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		F6E36F4E1559034F0013677B /* ApnsServer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ApnsServer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F6E36F521559034F0013677B /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		F6E36F551559034F0013677B /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		F6E36F561559034F0013677B /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		F6E36F571559034F0013677B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		F6E36F5A1559034F0013677B /* ApnsServer-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ApnsServer-Info.plist"; sourceTree = "<group>"; };
+		F6E36F5C1559034F0013677B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		F6E36F5E1559034F0013677B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F6E36F60155903500013677B /* ApnsServer-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ApnsServer-Prefix.pch"; sourceTree = "<group>"; };
+		F6E36F62155903500013677B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		F6E36F64155903500013677B /* KSAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KSAppDelegate.h; sourceTree = "<group>"; };
+		F6E36F65155903500013677B /* KSAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KSAppDelegate.m; sourceTree = "<group>"; };
+		F6E36F68155903500013677B /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		F6E36F73155906B60013677B /* apns.cer */ = {isa = PBXFileReference; lastKnownFileType = file; path = apns.cer; sourceTree = SOURCE_ROOT; };
+		F6E36F76155906CD0013677B /* ioSock.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ioSock.c; sourceTree = "<group>"; };
+		F6E36F77155906CD0013677B /* ioSock.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ioSock.h; sourceTree = "<group>"; };
+		F6E36F791559093E0013677B /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		F6E36F90155923270013677B /* KSDeviceInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KSDeviceInfo.h; sourceTree = "<group>"; };
+		F6E36F91155923270013677B /* KSDeviceInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KSDeviceInfo.m; sourceTree = "<group>"; };
+		F6E36FB5155A12520013677B /* Device.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Device.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F6E36F4B1559034F0013677B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F6E36F7A1559093E0013677B /* Security.framework in Frameworks */,
+				F6E36F531559034F0013677B /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F6E36F431559034F0013677B = {
+			isa = PBXGroup;
+			children = (
+				F6E36F581559034F0013677B /* ApnsServer */,
+				F6E36F511559034F0013677B /* Frameworks */,
+				F6E36F4F1559034F0013677B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F6E36F4F1559034F0013677B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F6E36F4E1559034F0013677B /* ApnsServer.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F6E36F511559034F0013677B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F6E36F791559093E0013677B /* Security.framework */,
+				F6E36F521559034F0013677B /* Cocoa.framework */,
+				F6E36F541559034F0013677B /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F6E36F541559034F0013677B /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F6E36F551559034F0013677B /* AppKit.framework */,
+				F6E36F561559034F0013677B /* CoreData.framework */,
+				F6E36F571559034F0013677B /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		F6E36F581559034F0013677B /* ApnsServer */ = {
+			isa = PBXGroup;
+			children = (
+				F6E36F64155903500013677B /* KSAppDelegate.h */,
+				F6E36F65155903500013677B /* KSAppDelegate.m */,
+				F6E36F67155903500013677B /* MainMenu.xib */,
+				F6E36F90155923270013677B /* KSDeviceInfo.h */,
+				F6E36F91155923270013677B /* KSDeviceInfo.m */,
+				F6E36F75155906BE0013677B /* Socket */,
+				F6E36F591559034F0013677B /* Supporting Files */,
+				F6E36FB5155A12520013677B /* Device.plist */,
+			);
+			path = ApnsServer;
+			sourceTree = "<group>";
+		};
+		F6E36F591559034F0013677B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F6E36F73155906B60013677B /* apns.cer */,
+				F6E36F5A1559034F0013677B /* ApnsServer-Info.plist */,
+				F6E36F5B1559034F0013677B /* InfoPlist.strings */,
+				F6E36F5E1559034F0013677B /* main.m */,
+				F6E36F60155903500013677B /* ApnsServer-Prefix.pch */,
+				F6E36F61155903500013677B /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F6E36F75155906BE0013677B /* Socket */ = {
+			isa = PBXGroup;
+			children = (
+				F6E36F76155906CD0013677B /* ioSock.c */,
+				F6E36F77155906CD0013677B /* ioSock.h */,
+			);
+			name = Socket;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F6E36F4D1559034F0013677B /* ApnsServer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F6E36F6C155903500013677B /* Build configuration list for PBXNativeTarget "ApnsServer" */;
+			buildPhases = (
+				F6E36F4A1559034F0013677B /* Sources */,
+				F6E36F4B1559034F0013677B /* Frameworks */,
+				F6E36F4C1559034F0013677B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ApnsServer;
+			productName = ApnsServer;
+			productReference = F6E36F4E1559034F0013677B /* ApnsServer.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F6E36F451559034F0013677B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = KS;
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = F6E36F481559034F0013677B /* Build configuration list for PBXProject "ApnsServer" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = F6E36F431559034F0013677B;
+			productRefGroup = F6E36F4F1559034F0013677B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F6E36F4D1559034F0013677B /* ApnsServer */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F6E36F4C1559034F0013677B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F6E36F5D1559034F0013677B /* InfoPlist.strings in Resources */,
+				F6E36F63155903500013677B /* Credits.rtf in Resources */,
+				F6E36F69155903500013677B /* MainMenu.xib in Resources */,
+				F6E36F74155906B60013677B /* apns.cer in Resources */,
+				F6E36FB6155A12520013677B /* Device.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F6E36F4A1559034F0013677B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F6E36F5F1559034F0013677B /* main.m in Sources */,
+				F6E36F66155903500013677B /* KSAppDelegate.m in Sources */,
+				F6E36F78155906CD0013677B /* ioSock.c in Sources */,
+				F6E36F92155923270013677B /* KSDeviceInfo.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F6E36F5B1559034F0013677B /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F6E36F5C1559034F0013677B /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		F6E36F61155903500013677B /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F6E36F62155903500013677B /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		F6E36F67155903500013677B /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F6E36F68155903500013677B /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F6E36F6A155903500013677B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CODE_SIGN_IDENTITY = "iPhone Developer: Jinbo He (9GB8877QXK)";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE = "9230230D-9303-492E-9AC7-061C28E2D061";
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		F6E36F6B155903500013677B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CODE_SIGN_IDENTITY = "iPhone Developer: Jinbo He (9GB8877QXK)";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				PROVISIONING_PROFILE = "9230230D-9303-492E-9AC7-061C28E2D061";
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		F6E36F6D155903500013677B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ApnsServer/ApnsServer-Prefix.pch";
+				INFOPLIST_FILE = "ApnsServer/ApnsServer-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		F6E36F6E155903500013677B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ApnsServer/ApnsServer-Prefix.pch";
+				INFOPLIST_FILE = "ApnsServer/ApnsServer-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F6E36F481559034F0013677B /* Build configuration list for PBXProject "ApnsServer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F6E36F6A155903500013677B /* Debug */,
+				F6E36F6B155903500013677B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F6E36F6C155903500013677B /* Build configuration list for PBXNativeTarget "ApnsServer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F6E36F6D155903500013677B /* Debug */,
+				F6E36F6E155903500013677B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F6E36F451559034F0013677B /* Project object */;
+}
